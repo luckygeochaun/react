@@ -2,17 +2,19 @@ import './styles/index.css'
 import Employees from './components/employee'
 
 function App() {
-  console.log('We are going to list all the emplyees here')
   {
     const hasAuth = true
     return hasAuth ? (
       <>
-        <Employees />
-        <Employees />
-        <Employees />
-        <Employees />
-        <Employees />
-        <Employees />
+        <input
+          type='text'
+          onChange={(e) => {
+            console.log(e.target.value)
+          }}
+        />
+        <Employees name='Caleb' role='Intern' />
+        <Employees name='Timothy' role='Owner' />
+        <Employees name='Tara' role='Owner Wife' />
       </>
     ) : (
       <h1>No Employees to show</h1>
