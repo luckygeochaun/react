@@ -14,12 +14,12 @@ function App() {
     {
       name: 'Timothy',
       role: 'Founder',
-      img: 'https://images.pexels.com/photos/2741701/pexels-photo-2741701.jpeg',
+      img: 'https://github.com/luckygeochaun/react/blob/main/public/images/women1.jpg?raw=true',
     },
     {
       name: 'Tara',
       role: 'Co-Founder',
-      img: 'https://images.pexels.com/photos/2530775/pexels-photo-2530775.jpeg',
+      img: 'https://i.imgur.com/u2Sdp4W.jpg',
     },
   ])
   const hasAuth = true
